@@ -1,0 +1,6 @@
+# File Suffixes
+*.pth
+
+# Directories
+Datasets/
+result/
