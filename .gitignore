@@ -9,3 +9,14 @@ result/
 __pycache__/
 *.py[cod]
 *.pyc
+
+# Any images generated
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.bmp
+*.tif
+*.tiff
