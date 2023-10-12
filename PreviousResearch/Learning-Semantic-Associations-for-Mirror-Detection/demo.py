@@ -1,6 +1,7 @@
 import os, torch, numpy, ntpath, tqdm
 from PIL import Image
 from model.architecture import Architecture
+import time
 
 checkpoint_dir = "/home/iain/Desktop/HonoursProject/PreviousResearch/Learning-Semantic-Associations-for-Mirror-Detection/checkpoints-20230927T155630Z-001/checkpoints/u_train_on_pmd_lr5eN4it40k.pt"
 input_dir = (
@@ -36,6 +37,7 @@ if os.path.isdir(input_dir):
 if not os.path.exists(output_dir):
     os.mkdir(output_dir)
 
+start_time = time.time()
 for imgpath in tqdm.tqdm(images):
     torch_img = torch.from_numpy(
         numpy.array(Image.open(imgpath), dtype=numpy.uint8)
@@ -70,3 +72,4 @@ for imgpath in tqdm.tqdm(images):
     )
     # print("running ", imgpath, end="\r")
 print("Done", "see '%s' for the output" % output_dir)
+print("Average time: ", (time.time() - start_time) / len(images))
