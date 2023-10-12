@@ -3,7 +3,7 @@ from PIL import Image
 from model.architecture import Architecture
 import time
 
-checkpoint_dir = "/home/iain/Desktop/HonoursProject/PreviousResearch/Learning-Semantic-Associations-for-Mirror-Detection/checkpoints-20230927T155630Z-001/checkpoints/u_train_on_pmd_lr5eN4it40k.pt"
+checkpoint_dir = "/home/iain/Desktop/HonoursProject/PreviousResearch/SANet/checkpoints-20230927T155630Z-001/checkpoints/u_train_on_pmd_lr5eN4it40k.pt"
 input_dir = (
     "/home/iain/Desktop/HonoursProject/Datasets/PMD_benchmark_combined/mine/test/image"
 )

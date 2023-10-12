@@ -21,7 +21,7 @@ from config import msd_testing_root
 from misc import check_mkdir, crf_refine
 from mirrornet import MirrorNet
 
-ckpt_path = "/home/iain/Desktop/HonoursProject/PreviousResearch/ICCV2019_MirrorNet/ckpt"
+ckpt_path = "/home/iain/Desktop/HonoursProject/PreviousResearch/MirrorNet/ckpt"
 exp_name = "MirrorNet"
 args = {"snapshot": "160", "scale": 384, "crf": True}
 

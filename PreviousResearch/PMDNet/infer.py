@@ -32,7 +32,7 @@ def main():
     net = PMD()
     net.load_state_dict(
         torch.load(
-            "/home/iain/Desktop/HonoursProject/PreviousResearch/pmd_release/pmd_splited.pth"
+            "/home/iain/Desktop/HonoursProject/PreviousResearch/PMDNet/pmd_splited.pth"
         )
     )
 

@@ -40,7 +40,7 @@ to_pil = transforms.ToPILImage()
 def main():
     net = VMD_Network()
 
-    checkpoint = "/home/iain/Desktop/HonoursProject/PreviousResearch/CVPR2023_resource/checkpoints/best.pth"
+    checkpoint = "/home/iain/Desktop/HonoursProject/PreviousResearch/VMD-Net/checkpoints/best.pth"
     check_point = torch.load(checkpoint, map_location="cpu")
     net.load_state_dict(check_point["model"])
 
