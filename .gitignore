@@ -27,7 +27,9 @@ __pycache__/
 *.mov
 *.wmv
 *.mkv
+*.MOV
 
 # Anything inside of a directory called "dataset"
 dataset/
 datasets/
+checkpoints/
