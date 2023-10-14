@@ -29,7 +29,13 @@ __pycache__/
 *.mkv
 *.MOV
 
+# Pkl files
+*.pkl
+
 # Anything inside of a directory called "dataset"
 dataset/
 datasets/
+
+# Checkpoints or archived
 checkpoints/
+PMD-model-best
