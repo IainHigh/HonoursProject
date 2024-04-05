@@ -1,0 +1,11 @@
+val: iter: 1, mae: 0.2141655
+val: iter: 2, mae: 0.0117595
+val: iter: 3, mae: 0.0122115
+val: iter: 4, mae: 0.0112665
+val: iter: 5, mae: 0.0094785
+val: iter: 6, mae: 0.0087765
+val: iter: 7, mae: 0.0081075
+val: iter: 8, mae: 0.0068835
+val: iter: 9, mae: 0.0061315
+val: iter: 10, mae: 0.0051995
+val: iter: 11, mae: 0.0052145
